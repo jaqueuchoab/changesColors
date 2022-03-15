@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#word {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #f4f4f4d8;
+  font: 900 35pt serif;
+
+  width: 13rem;
+  height: 13rem;
+  border-radius: 100%;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #f4f4f4d8;
+
+  height: 15rem;
+  width: 15rem;
+  border-radius: 100%;
+  box-shadow: 2px 1px rgba(39, 38, 39, 0.397);
+}
